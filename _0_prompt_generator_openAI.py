@@ -1,8 +1,8 @@
 import os
 import re
 import openai
-from stability_sdk import client
 from utils_colors import Colors
+from dotenv import load_dotenv
 
 class PromptGeneratorOpenAI:
     def __init__(self, path, prompt):
@@ -16,6 +16,7 @@ class PromptGeneratorOpenAI:
         self.stability_key = ""
 
     def init_keys(self):
+        load_dotenv(".env")
         openai.api_key = os.getenv("OPENAI_API_KEY")
         
     def generatePrompt(self):
