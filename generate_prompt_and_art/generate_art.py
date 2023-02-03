@@ -2,8 +2,8 @@ import os
 import re
 import sys
 import openai
-from _0_prompt_generator_openAI import PromptGeneratorOpenAI
-from _1_image_generator import ImageGenerator
+from prompt_generator import PromptGeneratorOpenAI
+from image_generator import ImageGenerator
 from utils_colors import Colors
 from utils_config import IMAGES_DIR, PROMPTS_DIR, URL, INPUT_PROMPT
 

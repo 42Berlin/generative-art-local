@@ -10,11 +10,15 @@ It provides many features, have a look at the [API documentation](http://10.11.2
 ## Example
 
 This example generates prompts that generate images.
-To run it, create a virtual environment first and install requirements.
+To run it, create a virtual environment first, and install requirements.
 
+`cd generate_prompt_and_art`  
 `python3 -m venv venv && . venv/bin/activate`  
 `pip3 install --upgrade pip`  
 `pip3 install -r requirements.txt`  
+
+Then, create an .env file and fill it with your API keys for [stable-diffusion](https://beta.dreamstudio.ai/membership?tab=apiKeys) and [openAI](https://platform.openai.com/account/api-keys).  
+`cp .env_example .env`    
 `python3 generate_art.py <prompts_output_file> <images_output_folder>`  
 
 This simply generates a prompt in the <prompts_output_file>, from an initial one defined in `utils_config.py`, which is used to generate images in the <images_output_folder>
