@@ -1,10 +1,10 @@
 # generative-art-local
-Scripts that generate images through stable-diffusion API running locally on 42 Berlin supercomputer
+Scripts that generate images through stable-diffusion API running locally on 42 Berlin AI computer
 
 ## Stable Diffusion
 
 Stable Diffusion is an open source deep learning model that generates visuals.
-In 42 Berlin, we are running the [Automatic1111](https://github.com/AUTOMATIC1111/stable-diffusion-webui#readme) version on a supercomputer and make it available **from clusters computers**.
+In 42 Berlin, we are running the [Automatic1111](https://github.com/AUTOMATIC1111/stable-diffusion-webui#readme) version on a powerful gaming computer and make it available **from clusters computers**.
 It provides many features, have a look at the [API documentation](http://10.11.250.225:7860/docs)
 
 ## Example
